@@ -1,24 +1,25 @@
-import logo from "./logo.svg";
 import "./App.css";
-
+let name = "ZAIN";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <>
+      <nav>
+        <li>Home</li>
+        <li>About</li>
+        <li>contact</li>
+      </nav>
+      <h1>Name is : {name} </h1>
+      <img src="./logo.svg" alt="" />
+      <div className="container">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem ipsum <b>ZAIN</b> dolor sit amet consectetur adipisicing elit.
+          Aliquid nisi ipsam necessitatibus molestias blanditiis? Nostrum
+          quibusdam qui rerum dicta. Id odio adipisci hic repudiandae quos.
+          Nihil nisi sunt molestiae repellat!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </div>
+      <div className="blank">ZAIN GONDAL</div>
+    </>
   );
 }
 
